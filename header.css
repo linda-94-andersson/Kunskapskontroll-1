@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    margin: 0;
+    padding-inline-start: 0;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 5px 0;
+}
+
+h1 {
+    color: white; 
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0 10px; 
+}

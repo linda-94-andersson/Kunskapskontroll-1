@@ -1,0 +1,40 @@
+/* index.html */ 
+
+a {
+    color: white;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(65, 63, 63);
+}
+
+a:active {
+    color: rgb(65, 63, 63);
+}
+
+body {
+    background-color: white;
+}
+
+.home-body {
+    background: linear-gradient(
+        120deg, 
+        white 0%,
+        white 75%, 
+        black 75%,
+        black 100%
+    )no-repeat fixed;
+}
+
+.main-title {
+    color: rgb(29, 28, 28);
+}
+
+.main-nav {
+    background-color: transparent; 
+}
+
+.grid-area {
+    background-color:rgb(231, 231, 231);
+}

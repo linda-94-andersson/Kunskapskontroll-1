@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.grid-area {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}

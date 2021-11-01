@@ -1,0 +1,17 @@
+/* index.html */ 
+
+li{
+   list-style-type: none;
+}
+
+body {
+    height: 57.55em;
+}
+
+
+.main-nav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+}
