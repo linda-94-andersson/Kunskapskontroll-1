@@ -11,6 +11,11 @@
     text-transform: uppercase;
 }
 
+.external-section {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
 h1,h3 {
     font-family: 'Yeseva One', cursive;
 }

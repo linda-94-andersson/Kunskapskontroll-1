@@ -35,6 +35,6 @@ body {
     background-color: transparent; 
 }
 
-.grid-area {
+.grid-area, .contact-area {
     background-color:rgb(231, 231, 231);
 }

@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="typography.css">
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="contact.css">
     </head>
 
     <header>
@@ -27,7 +29,7 @@
         </nav>
     </header>
 
-    <body>
+    <body class="contact-area">
         <h2>Contact me</h2>
         <form>
             <label>Enter your message below</label>
@@ -38,14 +40,16 @@
         </form>
 
         <section>
-            <a href="https://github.com/linda-94-andersson" target="_blank">
-                <figure><img src="assets/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="github"></figure>GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/linda-andersson-stockholm/" target="_blank">
-                <figure><img src="assets/LinkedIn-Logos/LI-In-Bug.png" alt="linkedin"></figure>Linkedin
-            </a>
+            <div class="external-section">
+                <a href="https://github.com/linda-94-andersson" target="_blank">
+                    <figure><img class="github-img" src="assets/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="github"></figure>GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/linda-andersson-stockholm/" target="_blank">
+                    <figure><img class="linkedin-img" src="assets/LinkedIn-Logos/LI-In-Bug.png" alt="linkedin"></figure>Linkedin
+                </a>
+            </div>
             <figure>
-                <img src="assets/LindaAndersson.jpg" alt="Linda Andersson">
+                <img class="profile-img" src="assets/LindaAndersson.jpg" alt="Linda Andersson">
             </figure>
         </section>
     </body>

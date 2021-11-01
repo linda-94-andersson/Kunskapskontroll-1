@@ -1,0 +1,24 @@
+* {
+    margin: 0; 
+    padding-inline-start: 0;
+}
+
+:root {
+    --icon-width: 3vw; 
+}
+
+.external-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.github-img, .linkedin-img  {
+    width: var(--icon-width);
+}
+
+.profile-img {
+    border-radius: 360px;
+    width: 10vw;
+    position: relative;
+    left: 45%;
+}
