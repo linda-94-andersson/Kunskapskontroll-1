@@ -3,6 +3,17 @@
     padding-inline-start: 0;
 }
 
+iframe {
+    width: 50vw; 
+    height: 50vh;
+}
+
+/* För senare använding när vi kör JS */
+/* iframe:hover {
+        background-image: url('assets/my-tribute-page-img.PNG');
+        background-repeat: no-repeat;
+} */
+
 .grid-area {
     display: grid;
     grid-template-columns: 1fr;
@@ -10,15 +21,21 @@
     justify-items: center;
     margin-top: 6.9em;
     margin-bottom: 2em;
-    padding: 3em;
+    padding: 4em;
 }
-/* För senare använding när vi kör JS */
-/* iframe:hover {
-        background-image: url('assets/my-tribute-page-img.PNG');
-        background-repeat: no-repeat;
-} */
 
-iframe {
-    width: 50vw; 
-    height: 60vh;
+@media (max-width: 375px){
+    iframe {
+        width: 70vw;
+        height: 30vh;
+    }
+    .grid-area {
+        margin-bottom: 10em;
+    }
+}
+
+@media (max-width: 667px){
+    .grid-area {
+        margin-top: 4em;
+    }
 }

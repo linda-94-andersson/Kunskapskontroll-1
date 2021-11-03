@@ -7,6 +7,11 @@
     --icon-width: 3vw; 
 }
 
+.form-section{
+    margin-top: 9.5em;
+    margin-bottom: 2em;
+   }
+   
 .external-section {
     display: flex;
     justify-content: space-evenly;
@@ -20,10 +25,16 @@
     border-radius: 360px;
     width: 10vw;
     position: relative;
-    left: 45%;
 }
 
-.form-section{
- margin-top: 9.5em;
- margin-bottom: 2em;
+@media (max-width: 375px){
+    .form-section {
+        margin-top: 6em !important;
+    }
+}
+
+@media (max-width: 667px){
+    .form-section {
+        margin-top: 3em;
+    }
 }

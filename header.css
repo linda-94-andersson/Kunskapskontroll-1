@@ -1,11 +1,4 @@
 header {
-    background: linear-gradient(
-        120deg, 
-        black 0%,
-        black 48%, 
-        white 48%,
-        white 100%
-    )no-repeat fixed;;
     margin: 0;
     padding-inline-start: 0;
     position: fixed;
@@ -18,12 +11,6 @@ header {
     padding: 0.5em 0;
 }
 
-h1 {
-    color: white; 
-    word-break: break-all;
-    font-size: 5rem;
-}
-
 ul {
     display: flex;
     
@@ -31,16 +18,11 @@ ul {
 
 li {
     list-style-type: none;
-    text-transform: uppercase;
     padding: 0 1em; 
 }
 
-.head-nav {
-    font-size: 1.45rem;
-}
-
-@media (max-width: 790px){
-    h1 {
-        word-break: normal;
+@media (max-width: 790px){ 
+    .head-nav {
+        display:none;
     }
 }

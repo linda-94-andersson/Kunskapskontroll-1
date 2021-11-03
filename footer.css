@@ -1,5 +1,4 @@
 footer {
-    background-color: black;
     margin: 0;
     padding-inline-start: 0;
     position: fixed;
@@ -12,12 +11,6 @@ footer {
     max-height: 10em;
 }
 
-h3 {
-    color: white;
-    word-break: break-all;
-    font-size: 1.5rem;
-}
-
 ul {
     display: flex;
     
@@ -25,6 +18,14 @@ ul {
 
 li {
     list-style-type: none;
-    text-transform: uppercase;
     padding: 0 1em; 
+}
+
+@media (max-width: 667px){
+    h3{
+      border-right: 1px solid white; 
+    }
+    .link-border {
+        border-bottom: 1px solid white;
+    }
 }
