@@ -5,5 +5,20 @@
 
 .grid-area {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 1fr;
+    gap: 3em;
+    justify-items: center;
+    margin-top: 6.9em;
+    margin-bottom: 2em;
+    padding: 3em;
+}
+/* För senare använding när vi kör JS */
+/* iframe:hover {
+        background-image: url('assets/my-tribute-page-img.PNG');
+        background-repeat: no-repeat;
+} */
+
+iframe {
+    width: 50vw; 
+    height: 60vh;
 }

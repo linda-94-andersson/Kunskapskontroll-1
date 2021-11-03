@@ -9,10 +9,13 @@ footer {
     justify-content: space-around; 
     align-items: center;
     padding: 1em 0;
+    max-height: 10em;
 }
 
 h3 {
-    color: white; 
+    color: white;
+    word-break: break-all;
+    font-size: 1.5rem;
 }
 
 ul {

@@ -29,7 +29,7 @@ a {
     font-weight: bold;
 }
 
-@media (min-width: 280px) and (max-width: 1000px){
+@media (max-width: 1000px){
     .main-title{
         font-size: 8.5rem;
     }
