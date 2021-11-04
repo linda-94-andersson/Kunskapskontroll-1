@@ -29,9 +29,10 @@
 }
 
 @media (min-width: 376px) and (max-width: 667px){
-    .github-img, .linkedin-img, { */
+    .github-img, .linkedin-img {
         width: 4.9vw;
     }
+        
     .profile-img {
         width: 6vw;
     } 
