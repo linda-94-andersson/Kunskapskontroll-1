@@ -28,6 +28,10 @@ li {
     text-transform: uppercase;
 }
 
+label {
+    font-size: 2.5rem;
+}
+
 /* Header CSS */
 .main-title {
     font-size: 21rem; 
@@ -59,21 +63,18 @@ li {
     text-align: center;
 }
 
-/* Link CSS */
-.link-border {
-    border-bottom: 1px solid white;
-}
-
 .link-exp {
     font-size: 3rem;
     text-shadow: 0 0 2px black;
 }
-/* End of Link CSS */
 
 
 @media (max-width: 375px){
     h2 {
-        font-size: 2em;
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1rem;
     }
     label {
         font-size: 1rem;
@@ -91,6 +92,12 @@ li {
         font-size: 1rem;
     }
     label {
+        font-size: 1rem;
+    }
+    .main-nav{
+        text-align: end;
+    }
+    .link-exp {
         font-size: 1rem;
     }
     .external-section {

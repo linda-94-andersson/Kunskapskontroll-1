@@ -6,11 +6,6 @@
 :root {
     --icon-width: 3vw; 
 }
-
-.form-section{
-    margin-top: 9.5em;
-    margin-bottom: 2em;
-   }
    
 .external-section {
     display: flex;
@@ -28,13 +23,16 @@
 }
 
 @media (max-width: 375px){
-    .form-section {
-        margin-top: 6em !important;
+    .github-img, .linkedin-img, .profile-img {
+        width: 15vw;
     }
 }
 
-@media (max-width: 667px){
-    .form-section {
-        margin-top: 3em;
+@media (min-width: 376px) and (max-width: 667px){
+    .github-img, .linkedin-img, { */
+        width: 4.9vw;
     }
+    .profile-img {
+        width: 6vw;
+    } 
 }
