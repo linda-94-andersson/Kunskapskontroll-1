@@ -1,39 +1,45 @@
 * {
-    margin: 0; 
-    padding-inline-start: 0;
+  margin: 0;
+  padding-inline-start: 0;
 }
 
 :root {
-    --icon-width: 3vw; 
-}
-   
-.external-section {
-    display: flex;
-    justify-content: space-evenly;
+  --icon-width: 3vw;
 }
 
-.github-img, .linkedin-img  {
-    width: var(--icon-width);
+.external-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.github-img,
+.linkedin-img {
+  width: var(--icon-width);
 }
 
 .profile-img {
-    border-radius: 360px;
-    width: 10vw;
-    position: relative;
+  border-radius: 360px;
+  width: 10vw;
+  position: relative;
 }
 
-@media (max-width: 375px){
-    .github-img, .linkedin-img, .profile-img {
-        width: 15vw;
-    }
+@media (max-width: 1000px) {
+  .external-section {
+    max-height: 4em;
+  }
+  .github-img,
+  .linkedin-img {
+    width: 4.9vw;
+  }
+  .profile-img {
+    width: 6vw;
+  }
 }
 
-@media (min-width: 376px) and (max-width: 667px){
-    .github-img, .linkedin-img {
-        width: 4.9vw;
-    }
-        
-    .profile-img {
-        width: 6vw;
-    } 
+@media (max-width: 660px) {
+  .github-img,
+  .linkedin-img,
+  .profile-img {
+    width: 15vw;
+  }
 }

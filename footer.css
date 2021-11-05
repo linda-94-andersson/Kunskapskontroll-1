@@ -1,22 +1,27 @@
 footer {
-    margin: 0;
-    padding-inline-start: 0;
-    position: fixed;
-    bottom: 0; 
-    width: 100%;
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    padding: 1em 0;
-    max-height: 3em;
+  margin: 0;
+  padding-inline-start: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+  max-height: 3em;
 }
 
 ul {
-    display: flex;
-    
+  display: flex;
 }
 
 li {
-    list-style-type: none;
-    padding: 0 1em; 
+  list-style-type: none;
+  padding: 0 1em;
+}
+
+@media (max-width:1000px){
+    footer {
+        max-height: 1em;
+    }
 }

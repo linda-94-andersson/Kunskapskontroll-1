@@ -1,120 +1,129 @@
 /* Header CSS */
-h1,h3 {
-    font-family: 'Yeseva One', cursive;
+h1,
+h3 {
+  font-family: "Yeseva One", cursive;
 }
 
 h1 {
-    word-break: break-all;
-    font-size: 5rem;
+  word-break: break-all;
+  font-size: 5rem;
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-    word-break: break-all;
-    font-size: 1.5rem;
+  word-break: break-all;
+  font-size: 1.5rem;
 }
 /* End of header CSS */
 
-
 a {
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 li {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 label {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 /* Header CSS */
 .main-title {
-    font-size: 21rem; 
-    word-break: break-all;
-    margin: 0;
+  font-size: 20rem;
+  word-break: break-all;
+  margin: 0;
 }
 
 .contact-title {
-    text-align: center;
-  }
+  text-align: center;
+}
 /* End of Header CSS */
 
-
-/* Navigation CSS*/ 
+/* Navigation CSS*/
 .main-nav {
-    font-size: 2.5rem;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .head-nav {
-    font-size: 1.45rem;
+  font-size: 1.45rem;
 }
 /* End of navigation CSS */
 
-
 .external-section {
-    font-size: 1.8rem;
-    text-align: center;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
 .link-exp {
+  font-size: 3rem;
+  text-shadow: 0 0 2px black;
+}
+
+@media (max-width: 1100px) {
+  .main-title {
+    font-size: 13.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 1rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+  .main-title {
+    font-size: 9rem;
+  }
+  .main-nav {
+    text-align: end;
+  }
+  .link-exp {
+    font-size: 1rem;
+  }
+  .external-section {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 790px) {
+  h1 {
+    word-break: normal;
     font-size: 3rem;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+  }
 }
 
-
-@media (max-width: 375px){
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1rem;
-    }
-    label {
-        font-size: 1rem;
-    }
-    .main-nav {
-        text-align: end;
-    }
-    .link-exp {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 667px){
-    h2 {
-        font-size: 1rem;
-    }
-    label {
-        font-size: 1rem;
-    }
-    .main-nav{
-        text-align: end;
-    }
-    .link-exp {
-        font-size: 1rem;
-    }
-    .external-section {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 790px){
-    h1 {
-        word-break: normal;
-        font-size: 3rem;
-        text-shadow: 0 0 2px rgb(0, 0, 0);
-    }
-}
-
-@media (max-width: 1000px){
-    .main-title{
-        font-size: 8.5rem;
-    }
+@media (max-width: 660px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 0.5rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+  footer {
+      font-size: 1rem;
+  }
+  .main-title {
+    font-size: 8rem;
+  }
+  .main-nav {
+    text-align: end;
+  }
+  .link-exp {
+    font-size: 1rem;
+  }
 }
